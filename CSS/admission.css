@@ -1,0 +1,109 @@
+ 
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: kalpurush;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.btn{
+    padding: 7px 15px;
+    background-color: #007bc1;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    border: transparent solid 2px;
+}
+.btn:hover{
+    border: #007bc1 solid 2px;
+    color: #007bc1;
+    background-color: white;
+}
+
+/* **** global end ****** */
+.logo-admission-page{
+    width: 150px;
+    display: block;
+    margin: 50px auto 5px auto;
+}
+.admission-tittle{
+    text-align: center;
+    font-family: kalpurush;
+    padding: 20px 0;
+}
+.rules{
+    font-family: kalpurush;
+    text-align: justify;
+}
+.rules > li{
+    padding: 5px 0;
+}
+#accepted{
+    display: none;
+}
+#commit:checked ~ #accepted{
+    display: unset;
+}
+
+/* ******** admission form start ******* */
+.admission-form{
+    margin-top: 20px;
+    text-align: center;
+}
+.admission-form h1{
+    text-align: center;
+    color: #007bc1;
+    text-transform: capitalize;
+}
+.admission-form h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.button{
+    padding: 5px 15px;
+    font-size: 20px;
+    width: 90px;
+    border: none;
+    background-color: #007bc1;
+    text-decoration: none;
+    border-radius: 7px;
+    color: white;
+    margin-right: 10px;
+    transition: 1s;
+}
+.button:hover{
+    background-color: white;
+    color: #007bc1;
+    border: #007bc1 solid 2px;
+}
+/* ******** admission form end ******* */
+
+#hero{
+    height: 80vh;
+    margin-top: 10px;
+}
+/* ******* footer start here ********** */
+footer{
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding: 7px;
+	border-top: #007bc1 3px solid;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+	transition: 1.5s;
+	display: inline-block;
+}
+footer a:hover{
+	transform: scale(1.2);
+	text-decoration: underline;
+}
+/* ******* footer end here ********** */
